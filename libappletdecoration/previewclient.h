@@ -97,6 +97,7 @@ public:
     int height() const override;
     QPalette palette() const override;
     QColor color(KDecoration2::ColorGroup group, KDecoration2::ColorRole role) const override;
+    QString windowClass() const override;
     Qt::Edges adjacentScreenEdges() const override;
 
     bool hasApplicationMenu() const override;

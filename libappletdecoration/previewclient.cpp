@@ -273,6 +273,12 @@ QColor PreviewClient::color(KDecoration2::ColorGroup group, KDecoration2::ColorR
     return m_palette->color(group, role);
 }
 
+
+QString PreviewClient::windowClass() const
+{
+    return "";
+}
+
 void PreviewClient::setColorScheme(QString scheme)
 {
     if (m_colorScheme == scheme && !m_colorScheme.isEmpty()) {
